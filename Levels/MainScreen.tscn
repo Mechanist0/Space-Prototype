@@ -5,7 +5,7 @@
 [ext_resource type="Texture2D" uid="uid://del2q851ry2xy" path="res://skybox/left.png" id="4_luiyv"]
 [ext_resource type="Script" path="res://Levels/AsteroidMultiplayerSpawner.gd" id="5_suvoi"]
 [ext_resource type="PackedScene" uid="uid://dkexik1kodrb5" path="res://Entities/MiningShip.tscn" id="6_7vvox"]
-[ext_resource type="PackedScene" uid="uid://bod1m0fwuxvbk" path="res://Entities/MassDriver.tscn" id="6_d5q7o"]
+[ext_resource type="PackedScene" path="res://Entities/MassDriver.tscn" id="6_d5q7o"]
 
 [sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_d68ej"]
 panorama = ExtResource("4_luiyv")
