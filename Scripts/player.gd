@@ -65,7 +65,7 @@ func _unhandled_input(event: InputEvent) -> void:
 				var collider = RayCast.get_collider()
 				var script_node = collider.get_node("ScriptNode") if collider.has_node("ScriptNode") else null
 				if(script_node is Activatable):
-					var info_to_send = {"node_path" = self.get_path(), "info" = event.as_text()}
+					var info_to_send = {"node_path" = self.get_path(), "info" = event.as_text(), "collision" = RayCast.get_collision_point()}
 					script_node.activate_rpc.rpc(info_to_send)
 					script_node.activate(info_to_send)
 		
